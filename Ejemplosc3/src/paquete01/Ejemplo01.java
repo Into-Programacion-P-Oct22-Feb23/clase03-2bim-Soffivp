@@ -16,12 +16,15 @@ public class Ejemplo01 {
      */
     public static void main(String[] args) {
         // Creación de arreglo bidimensionales
+        // El tamaño del arreglo es dado por las filas
         
         // forma 1
         int[][] arreglo1 = new int[3][4];
         
         // forma 2
         int[][] arreglo2 = {{10, 20, 30}, {100, 200, 300}};
+        //cadena
+        String [][] cadena = {{"Ana", "Jose", "Pedro"},{"Sofia" , "Juana","Marco"}};
         
         // forma 3
         int[][] arreglo3 = new int[3][];
